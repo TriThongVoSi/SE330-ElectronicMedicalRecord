@@ -1,0 +1,71 @@
+server:
+  port: 8080
+
+spring:
+  config:
+    # Load local .env (KEY=VALUE) during development.
+    # Supports running from either backend/ or repository root.
+    import: optional:file:.env[.properties],optional:file:backend/.env[.properties]
+  application:
+    name: EMR-system
+
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/se330db}
+    username: ${DB_USER:springuser}
+    password: ${DB_PASS:springpass}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  mail:
+    host: ${SMTP_HOST:}
+    port: ${SMTP_PORT:587}
+    username: ${SMTP_USERNAME:}
+    password: ${SMTP_PASSWORD:}
+    properties:
+      mail:
+        smtp:
+          auth: ${SMTP_AUTH:true}
+          starttls:
+            enable: ${SMTP_STARTTLS:true}
+    default-encoding: UTF-8
+
+# JWT Configuration
+jwt:
+  # Required: provide via environment variable or backend/.env
+  signer-key: ${JWT_SIGNER_KEY:}
+  valid-duration: ${JWT_VALID_DURATION:3600}
+  refreshable-duration: ${JWT_REFRESHABLE_DURATION:86400}
+
+reset-token:
+  valid-minutes: ${RESET_TOKEN_VALID_MINUTES:10}
+
+password-reset:
+  rate-limit:
+    max: ${PASSWORD_RESET_RATE_LIMIT_MAX:3}
+    window-minutes: ${PASSWORD_RESET_RATE_LIMIT_WINDOW_MINUTES:15}
+
+otp:
+  expiry-minutes: ${OTP_EXPIRY_MINUTES:5}
+  max-attempts: ${OTP_MAX_ATTEMPTS:5}
+  resend-cooldown-seconds: ${OTP_RESEND_COOLDOWN_SECONDS:60}
+  # Required: provide via environment variable or backend/.env
+  hash-secret: ${OTP_HASH_SECRET:}
+
+# CORS Configuration
+cors:
+  allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173}
+
+# Swagger/OpenAPI
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+
+# Mail sender configuration
+app:
+  url: ${APP_URL:http://localhost:5173}
+  mail:
+    enabled: ${MAIL_ENABLED:true}
+    from: ${SMTP_FROM:no-reply@example.com}
+    dev-fallback-enabled: ${APP_MAIL_DEV_FALLBACK_ENABLED:true}

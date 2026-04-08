@@ -1,0 +1,18 @@
+export const appRoutes = {
+  root: '/',
+  login: '/login',
+  forgotPassword: '/forgot-password',
+  firstLoginPassword: '/first-login/change-password',
+  forbidden: '/forbidden',
+  dashboard: '/dashboard',
+  patients: '/patients',
+  doctors: '/doctors',
+  appointments: '/appointments',
+  services: '/services',
+  drugs: '/drugs',
+  prescriptions: '/prescriptions',
+  patientDashboard: '/patient/dashboard',
+  patientMedicalHistory: '/patient/history',
+  patientAppointments: '/patient/appointments',
+  patientProfile: '/patient/profile',
+} as const

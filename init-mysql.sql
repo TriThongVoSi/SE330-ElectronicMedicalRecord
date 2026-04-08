@@ -1,0 +1,6 @@
+CREATE DATABASE IF NOT EXISTS se330db;
+CREATE USER IF NOT EXISTS 'springuser'@'localhost' IDENTIFIED BY 'springpass';
+GRANT ALL PRIVILEGES ON se330db.* TO 'springuser'@'localhost';
+FLUSH PRIVILEGES;
+
+
