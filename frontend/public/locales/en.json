@@ -1,0 +1,641 @@
+{
+  "appLayout": {
+    "brandTag": "Electronic Medical Record",
+    "unknownUser": "Unknown user",
+    "guest": "Guest",
+    "logout": "Logout",
+    "signedOutTitle": "Signed out",
+    "signedOutDescription": "Your session has been cleared.",
+    "mainNavigation": "Main navigation",
+    "language": "Language",
+    "languageShort": {
+      "en": "EN",
+      "vi": "VI"
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "patients": "Patients",
+    "doctors": "Doctors",
+    "appointments": "Appointments",
+    "services": "Services",
+    "drugs": "Drugs",
+    "prescriptions": "Prescriptions",
+    "patientDashboard": "My Dashboard",
+    "patientMedicalHistory": "Medical History",
+    "patientAppointments": "My Appointments",
+    "patientProfile": "My Profile"
+  },
+  "roles": {
+    "admin": "Admin",
+    "doctor": "Doctor",
+    "user": "User",
+    "patient": "Patient"
+  },
+  "common": {
+    "actions": {
+      "addItem": "Add item",
+      "cancel": "Cancel",
+      "close": "Close",
+      "dismiss": "Dismiss",
+      "edit": "Edit",
+      "next": "Next",
+      "previous": "Previous",
+      "remove": "Remove",
+      "retry": "Retry",
+      "saving": "Saving...",
+      "view": "View"
+    },
+    "empty": {
+      "title": "No data available",
+      "message": "Try adjusting your filters or create a new record."
+    },
+    "error": {
+      "title": "Something went wrong"
+    },
+    "filters": {
+      "all": "All"
+    },
+    "loading": {
+      "default": "Loading data..."
+    },
+    "pagination": {
+      "summary": "Page {page} / {totalPages} ({totalItems} items)"
+    }
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "coming": "Coming",
+    "finish": "Finished",
+    "cancel": "Cancelled",
+    "created": "Created",
+    "issued": "Issued",
+    "none": "None",
+    "paid": "Paid"
+  },
+  "forbidden": {
+    "title": "Access denied",
+    "message": "Your current role does not have permission to open this page.",
+    "backToDashboard": "Back to dashboard"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "message": "The route you requested does not exist.",
+    "goToDashboard": "Go to dashboard"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "EMRal overview for appointments and patients.",
+    "loadingMetrics": "Loading dashboard metrics...",
+    "stats": {
+      "totalAppointmentsToday": "Total appointments today",
+      "coming": "Coming",
+      "finished": "Finished",
+      "cancelled": "Cancelled",
+      "newPatientsToday": "New patients today"
+    },
+    "upcoming": {
+      "title": "Upcoming appointments",
+      "emptyTitle": "No upcoming appointments",
+      "emptyMessage": "Appointments scheduled for the current timeline will show here."
+    },
+    "table": {
+      "time": "Time",
+      "patient": "Patient",
+      "doctor": "Doctor",
+      "status": "Status"
+    }
+  },
+  "auth": {
+    "brandTag": "Electronic Medical Record",
+    "login": {
+      "title": "Sign in",
+      "subtitle": "Use your account to access doctor and patient EMR workflows.",
+      "identifier": "Username or email",
+      "password": "Password",
+      "signingIn": "Signing in...",
+      "signIn": "Sign in",
+      "createAccount": "Create account",
+      "forgotPassword": "Forgot password?",
+      "seedTitle": "Local seed credentials",
+      "provisioningOnly": "Patient accounts are provisioned internally."
+    },
+    "signup": {
+      "title": "Create account",
+      "subtitle": "Register a local account and verify it with OTP.",
+      "fullName": "Full name",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "submitting": "Submitting...",
+      "sendOtp": "Send OTP",
+      "otpSent": "OTP sent. Enter the code to activate your account.",
+      "accountVerified": "Account verified. You can now sign in.",
+      "otpSentTo": "OTP was sent to",
+      "otpCode": "OTP code",
+      "verifying": "Verifying...",
+      "verifyAccount": "Verify account",
+      "backToSignIn": "Back to sign in"
+    },
+    "forgot": {
+      "title": "Reset password",
+      "subtitle": "Recover your account with email OTP.",
+      "email": "Email",
+      "sendingOtp": "Sending OTP...",
+      "sendOtp": "Send OTP",
+      "requestDone": "If account exists, OTP has been sent. Enter the code to continue.",
+      "otpSentTo": "Enter OTP sent to",
+      "otpCode": "OTP code",
+      "verifying": "Verifying...",
+      "verifyOtp": "Verify OTP",
+      "otpVerified": "OTP verified. Set your new password.",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password",
+      "updatingPassword": "Updating password...",
+      "updatePassword": "Update password",
+      "passwordUpdated": "Password updated successfully. Redirecting to sign in...",
+      "backToSignIn": "Back to sign in"
+    },
+    "firstLogin": {
+      "title": "Change temporary password",
+      "subtitle": "This is your first login. You must set a new password before continuing.",
+      "currentPassword": "Current password",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password",
+      "passwordRule": "Password should contain at least 8 characters and should not match your temporary password.",
+      "submit": "Update password",
+      "submitting": "Updating password...",
+      "toast": {
+        "successTitle": "Password updated",
+        "successDescription": "Your account is now fully activated."
+      }
+    }
+  },
+  "patients": {
+    "title": "Patients",
+    "subtitle": "Manage patient records with search, filters, and editable profiles.",
+    "newButton": "New patient",
+    "filters": {
+      "search": "Search",
+      "searchPlaceholder": "Code, name, phone",
+      "patientCode": "Patient code",
+      "phone": "Phone"
+    },
+    "emptyTitle": "No patients found",
+    "emptyMessage": "Try changing filters or create a new patient record.",
+    "table": {
+      "code": "Code",
+      "fullName": "Full name",
+      "phone": "Phone",
+      "gender": "Gender",
+      "dateOfBirth": "Date of birth",
+      "actions": "Actions"
+    },
+    "actions": {
+      "timeline": "Timeline"
+    },
+    "modal": {
+      "createTitle": "Create patient",
+      "updateTitle": "Update patient"
+    },
+    "form": {
+      "patientCode": "Patient code",
+      "fullName": "Full name",
+      "dateOfBirth": "Date of birth",
+      "email": "Email",
+      "gender": "Gender",
+      "genderPlaceholder": "Male/Female",
+      "phone": "Phone",
+      "address": "Address",
+      "diagnosis": "Diagnosis",
+      "height": "Height (cm)",
+      "weight": "Weight (kg)",
+      "saveButton": "Save patient"
+    },
+    "detail": {
+      "title": "Patient detail",
+      "code": "Code",
+      "fullName": "Full name",
+      "phone": "Phone",
+      "email": "Email",
+      "dateOfBirth": "Date of birth",
+      "gender": "Gender",
+      "diagnosis": "Diagnosis",
+      "address": "Address"
+    },
+    "timeline": {
+      "title": "Medical timeline",
+      "titleWithName": "Medical timeline - {fullName}",
+      "loading": "Loading patient timeline...",
+      "empty": "No appointment or prescription history found for this patient.",
+      "doctor": "Doctor",
+      "appointmentStatus": "Appointment status",
+      "prescription": "Prescription",
+      "prescriptionStatus": "Prescription status",
+      "diagnosis": "Diagnosis",
+      "advice": "Advice",
+      "issuedAt": "Issued at"
+    },
+    "toast": {
+      "createdTitle": "Patient created",
+      "createdDescription": "New patient record has been saved.",
+      "updatedTitle": "Patient updated",
+      "updatedDescription": "Patient information has been updated.",
+      "saveErrorTitle": "Cannot save patient"
+    }
+  },
+  "doctors": {
+    "title": "Doctors",
+    "subtitle": "Manage doctor profiles, confirmation state, and specialty assignment.",
+    "newButton": "New doctor",
+    "myProfile": {
+      "title": "My profile",
+      "saveButton": "Save profile"
+    },
+    "filters": {
+      "searchDoctor": "Search doctor",
+      "searchPlaceholder": "Name, email, phone"
+    },
+    "loadingDirectory": "Loading doctor directory...",
+    "emptyTitle": "No doctors",
+    "emptyMessage": "Doctor records will appear here.",
+    "table": {
+      "fullName": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "role": "Role",
+      "actions": "Actions"
+    },
+    "actions": {
+      "deactivate": "Deactivate"
+    },
+    "modal": {
+      "createTitle": "Create doctor",
+      "updateTitle": "Update doctor profile"
+    },
+    "form": {
+      "username": "Username",
+      "password": "Password",
+      "fullName": "Full name",
+      "email": "Email",
+      "gender": "Gender",
+      "phone": "Phone",
+      "address": "Address",
+      "specialty": "Specialty",
+      "unassigned": "Unassigned",
+      "confirmed": "Doctor is confirmed",
+      "accountActive": "Account is active",
+      "specialtyError": "Cannot load specialty options:",
+      "saveButton": "Save doctor"
+    },
+    "confirmDeactivate": "Deactivate doctor \"{fullName}\"? This will set the account as inactive.",
+    "toast": {
+      "createdTitle": "Doctor created",
+      "createdDescription": "Doctor account has been created successfully.",
+      "updatedTitle": "Doctor updated",
+      "updatedDescription": "Doctor profile has been updated successfully.",
+      "deactivatedTitle": "Doctor deactivated",
+      "deactivatedDescription": "Doctor account has been marked inactive.",
+      "profileUpdatedTitle": "Profile updated",
+      "profileUpdatedDescription": "Your doctor profile has been updated.",
+      "loadProfileErrorTitle": "Cannot load doctor profile",
+      "deactivateErrorTitle": "Cannot deactivate doctor",
+      "saveErrorTitle": "Cannot save doctor",
+      "updateProfileErrorTitle": "Cannot update profile"
+    }
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Manage EMRal services from the catalog module.",
+    "newButton": "New service",
+    "filters": {
+      "search": "Search",
+      "searchPlaceholder": "Code, name, type",
+      "status": "Status"
+    },
+    "emptyTitle": "No services",
+    "emptyMessage": "Catalog services will appear here.",
+    "table": {
+      "code": "Code",
+      "name": "Name",
+      "type": "Type",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "modal": {
+      "createTitle": "Create service",
+      "updateTitle": "Update service"
+    },
+    "form": {
+      "serviceCode": "Service code",
+      "serviceName": "Service name",
+      "serviceType": "Service type",
+      "serviceActive": "Service is active",
+      "saveButton": "Save service"
+    },
+    "toast": {
+      "createdTitle": "Service created",
+      "createdDescription": "Catalog item added successfully.",
+      "updatedTitle": "Service updated",
+      "updatedDescription": "Catalog item updated successfully.",
+      "saveErrorTitle": "Cannot save service"
+    }
+  },
+  "drugs": {
+    "title": "Drugs",
+    "subtitle": "Maintain medicine catalog with stock and pricing data.",
+    "newButton": "New drug",
+    "filters": {
+      "search": "Search",
+      "searchPlaceholder": "Code, name, manufacturer",
+      "status": "Status"
+    },
+    "emptyTitle": "No drugs",
+    "emptyMessage": "Drug catalog entries will show here.",
+    "table": {
+      "code": "Code",
+      "name": "Name",
+      "manufacturer": "Manufacturer",
+      "expiry": "Expiry",
+      "price": "Price",
+      "stock": "Stock",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "modal": {
+      "createTitle": "Create drug",
+      "updateTitle": "Update drug"
+    },
+    "form": {
+      "drugCode": "Drug code",
+      "drugName": "Drug name",
+      "manufacturer": "Manufacturer",
+      "expiryDate": "Expiry date",
+      "unit": "Unit",
+      "price": "Price",
+      "stockQuantity": "Stock quantity",
+      "drugActive": "Drug is active",
+      "saveButton": "Save drug"
+    },
+    "toast": {
+      "createdTitle": "Drug created",
+      "createdDescription": "Drug catalog has been updated.",
+      "updatedTitle": "Drug updated",
+      "updatedDescription": "Drug information has been updated.",
+      "saveErrorTitle": "Cannot save drug"
+    }
+  },
+  "appointments": {
+    "title": "Appointments",
+    "subtitle": "Book, track, and update appointment status for EMR operations.",
+    "newButton": "New appointment",
+    "filters": {
+      "search": "Search",
+      "searchPlaceholder": "Code, doctor, patient",
+      "status": "Status",
+      "allStatus": "All status",
+      "date": "Date"
+    },
+    "emptyTitle": "No appointments found",
+    "emptyMessage": "No booking matches current filters.",
+    "table": {
+      "code": "Code",
+      "time": "Time",
+      "patient": "Patient",
+      "doctor": "Doctor",
+      "status": "Status",
+      "prescription": "Prescription",
+      "actions": "Actions"
+    },
+    "modal": {
+      "createTitle": "Create appointment",
+      "updateTitle": "Update appointment"
+    },
+    "form": {
+      "appointmentCode": "Appointment code",
+      "appointmentTime": "Appointment time",
+      "patient": "Patient",
+      "selectPatient": "Select patient",
+      "doctor": "Doctor",
+      "selectDoctor": "Select doctor",
+      "lookupError": "Cannot load lookup data:",
+      "status": "Status",
+      "prescriptionStatus": "Prescription status",
+      "urgencyLevel": "Urgency level (1-5)",
+      "priorityScore": "Priority score (1-10)",
+      "followUp": "Follow-up appointment",
+      "cancelReason": "Cancel reason",
+      "saveButton": "Save appointment"
+    },
+    "toast": {
+      "createdTitle": "Appointment created",
+      "createdDescription": "Booking has been added successfully.",
+      "updatedTitle": "Appointment updated",
+      "updatedDescription": "Appointment data has been updated.",
+      "saveErrorTitle": "Cannot save appointment"
+    }
+  },
+  "prescriptions": {
+    "title": "Prescriptions",
+    "subtitle": "Issue prescriptions and manage medicine instructions.",
+    "newButton": "New prescription",
+    "filters": {
+      "search": "Search",
+      "searchPlaceholder": "Code, patient, doctor",
+      "status": "Status"
+    },
+    "emptyTitle": "No prescriptions",
+    "emptyMessage": "Issued prescriptions will appear in this list.",
+    "table": {
+      "code": "Code",
+      "patient": "Patient",
+      "doctor": "Doctor",
+      "status": "Status",
+      "createdAt": "Created at",
+      "actions": "Actions"
+    },
+    "modal": {
+      "createTitle": "Create prescription",
+      "updateTitle": "Update prescription"
+    },
+    "form": {
+      "prescriptionCode": "Prescription code",
+      "status": "Status",
+      "patient": "Patient",
+      "selectPatient": "Select patient",
+      "doctor": "Doctor",
+      "selectDoctor": "Select doctor",
+      "appointment": "Appointment",
+      "selectAppointment": "Select appointment",
+      "lookupError": "Cannot load lookup data:",
+      "diagnosis": "Diagnosis",
+      "advice": "Advice",
+      "itemsTitle": "Prescription items",
+      "drug": "Drug",
+      "selectDrug": "Select drug",
+      "quantity": "Quantity",
+      "instructions": "Instructions",
+      "saveButton": "Save prescription"
+    },
+    "detail": {
+      "title": "Prescription detail",
+      "code": "Code:",
+      "patient": "Patient:",
+      "doctor": "Doctor:",
+      "status": "Status:",
+      "itemsTitle": "Items",
+      "drug": "Drug",
+      "quantity": "Quantity",
+      "instructions": "Instructions"
+    },
+    "toast": {
+      "createdTitle": "Prescription created",
+      "createdDescription": "Prescription has been issued successfully.",
+      "updatedTitle": "Prescription updated",
+      "updatedDescription": "Prescription has been updated successfully.",
+      "saveErrorTitle": "Cannot save prescription"
+    }
+  },
+  "patientPortal": {
+    "status": {
+      "pending_confirmation": "Pending confirmation",
+      "confirmed": "Confirmed",
+      "cancelled": "Cancelled"
+    },
+    "dashboard": {
+      "title": "My Health Dashboard",
+      "subtitle": "Track your upcoming appointments and latest visit updates.",
+      "loading": "Loading dashboard...",
+      "stats": {
+        "upcoming": "Upcoming appointments",
+        "latestVisit": "Latest visit",
+        "latestPrescription": "Latest prescription"
+      },
+      "emptyVisit": "No visit history yet.",
+      "emptyPrescription": "No prescription yet.",
+      "quickActions": "Quick actions",
+      "actions": {
+        "bookAppointment": "Book appointment",
+        "viewHistory": "View history",
+        "updateProfile": "Update profile"
+      }
+    },
+    "history": {
+      "title": "Medical History",
+      "subtitle": "Review your visit timeline, diagnosis, and prescription details.",
+      "loading": "Loading medical history...",
+      "emptyTitle": "No history records yet",
+      "emptyMessage": "Your completed visits and prescriptions will appear here.",
+      "fields": {
+        "doctor": "Doctor",
+        "status": "Status",
+        "diagnosis": "Diagnosis",
+        "notes": "Notes",
+        "visitCode": "Visit code",
+        "visitTime": "Visit time"
+      },
+      "actions": {
+        "viewDetail": "View details"
+      },
+      "detailTitle": "Visit details",
+      "detailLoading": "Loading visit detail...",
+      "medications": {
+        "title": "Prescription items",
+        "empty": "No medication data for this visit.",
+        "drug": "Drug",
+        "dosage": "Dosage",
+        "quantity": "Quantity",
+        "instructions": "Instructions"
+      }
+    },
+    "appointments": {
+      "title": "My Appointments",
+      "subtitle": "Book, reschedule, and cancel your appointments.",
+      "actions": {
+        "bookNew": "Book new appointment",
+        "reschedule": "Reschedule",
+        "cancel": "Cancel"
+      },
+      "tabs": {
+        "label": "Appointment tabs",
+        "upcoming": "Upcoming",
+        "past": "Past",
+        "cancelled": "Cancelled"
+      },
+      "emptyTitle": "No appointments found",
+      "emptyMessage": "Try a different tab or book a new appointment.",
+      "table": {
+        "code": "Code",
+        "time": "Time",
+        "doctor": "Doctor",
+        "status": "Status",
+        "cancelReason": "Cancel reason",
+        "actions": "Actions"
+      },
+      "form": {
+        "doctor": "Doctor",
+        "selectDoctor": "Select doctor",
+        "date": "Date",
+        "slots": "Available slots",
+        "loadingSlots": "Loading slots...",
+        "noSlots": "No available slots for selected date.",
+        "note": "Reason / note"
+      },
+      "bookModal": {
+        "title": "Book appointment",
+        "submit": "Confirm booking"
+      },
+      "rescheduleModal": {
+        "title": "Reschedule appointment",
+        "submit": "Confirm reschedule"
+      },
+      "cancelModal": {
+        "title": "Cancel appointment",
+        "reason": "Cancellation reason",
+        "submit": "Confirm cancellation"
+      },
+      "detailModal": {
+        "title": "Appointment details",
+        "loading": "Loading appointment details..."
+      },
+      "toast": {
+        "bookedTitle": "Appointment booked",
+        "bookedDescription": "Your appointment has been booked.",
+        "rescheduledTitle": "Appointment rescheduled",
+        "rescheduledDescription": "Your appointment has been rescheduled.",
+        "cancelledTitle": "Appointment cancelled",
+        "cancelledDescription": "Your appointment has been cancelled.",
+        "bookErrorTitle": "Cannot book appointment",
+        "rescheduleErrorTitle": "Cannot reschedule appointment",
+        "cancelErrorTitle": "Cannot cancel appointment"
+      }
+    },
+    "profile": {
+      "title": "My Profile",
+      "subtitle": "Update your contact and health profile information.",
+      "loading": "Loading profile...",
+      "identityTitle": "Identity information",
+      "editTitle": "Editable profile",
+      "fields": {
+        "patientCode": "Patient code",
+        "fullName": "Full name",
+        "gender": "Gender",
+        "dateOfBirth": "Date of birth",
+        "email": "Email",
+        "phone": "Phone",
+        "address": "Address",
+        "heightCm": "Height (cm)",
+        "weightKg": "Weight (kg)",
+        "drugAllergies": "Drug allergies"
+      },
+      "saveButton": "Save profile",
+      "toast": {
+        "savedTitle": "Profile updated",
+        "savedDescription": "Your profile has been updated successfully.",
+        "saveErrorTitle": "Cannot update profile"
+      }
+    }
+  }
+}

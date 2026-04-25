@@ -1,0 +1,641 @@
+{
+  "appLayout": {
+    "brandTag": "Hồ sơ bệnh án điện tử",
+    "unknownUser": "Người dùng không xác định",
+    "guest": "Khách",
+    "logout": "Đăng xuất",
+    "signedOutTitle": "Đã đăng xuất",
+    "signedOutDescription": "Phiên làm việc của bạn đã được xóa.",
+    "mainNavigation": "Điều hướng chính",
+    "language": "Ngôn ngữ",
+    "languageShort": {
+      "en": "EN",
+      "vi": "VI"
+    }
+  },
+  "navigation": {
+    "dashboard": "Tổng quan",
+    "patients": "Bệnh nhân",
+    "doctors": "Bác sĩ",
+    "appointments": "Lịch hẹn",
+    "services": "Dịch vụ",
+    "drugs": "Thuốc",
+    "prescriptions": "Đơn thuốc",
+    "patientDashboard": "T?ng quan c?a t?i",
+    "patientMedicalHistory": "L?ch s? kh?m",
+    "patientAppointments": "L?ch h?n c?a t?i",
+    "patientProfile": "H? s? c?a t?i"
+  },
+  "roles": {
+    "admin": "Quản trị viên",
+    "doctor": "Bác sĩ",
+    "user": "Người dùng",
+    "patient": "B?nh nh?n"
+  },
+  "common": {
+    "actions": {
+      "addItem": "Thêm mục",
+      "cancel": "Hủy",
+      "close": "Đóng",
+      "dismiss": "Ẩn",
+      "edit": "Sửa",
+      "next": "Trang sau",
+      "previous": "Trang trước",
+      "remove": "Xóa",
+      "retry": "Thử lại",
+      "saving": "Đang lưu...",
+      "view": "Xem"
+    },
+    "empty": {
+      "title": "Không có dữ liệu",
+      "message": "Hãy điều chỉnh bộ lọc hoặc tạo bản ghi mới."
+    },
+    "error": {
+      "title": "Đã có lỗi xảy ra"
+    },
+    "filters": {
+      "all": "Tất cả"
+    },
+    "loading": {
+      "default": "Đang tải dữ liệu..."
+    },
+    "pagination": {
+      "summary": "Trang {page} / {totalPages} ({totalItems} mục)"
+    }
+  },
+  "status": {
+    "active": "Hoạt động",
+    "inactive": "Ngừng hoạt động",
+    "coming": "Sắp tới",
+    "finish": "Đã hoàn thành",
+    "cancel": "Đã hủy",
+    "created": "Đã tạo",
+    "issued": "Đã phát hành",
+    "none": "Không có",
+    "paid": "Đã thanh toán"
+  },
+  "forbidden": {
+    "title": "Không có quyền truy cập",
+    "message": "Vai trò hiện tại của bạn không có quyền mở trang này.",
+    "backToDashboard": "Quay lại tổng quan"
+  },
+  "notFound": {
+    "title": "Không tìm thấy trang",
+    "message": "Đường dẫn bạn yêu cầu không tồn tại.",
+    "goToDashboard": "Về trang tổng quan"
+  },
+  "dashboard": {
+    "title": "Tổng quan",
+    "subtitle": "Tổng quan EMR về lịch hẹn và bệnh nhân.",
+    "loadingMetrics": "Đang tải số liệu tổng quan...",
+    "stats": {
+      "totalAppointmentsToday": "Tổng lịch hẹn hôm nay",
+      "coming": "Sắp tới",
+      "finished": "Đã hoàn thành",
+      "cancelled": "Đã hủy",
+      "newPatientsToday": "Bệnh nhân mới hôm nay"
+    },
+    "upcoming": {
+      "title": "Lịch hẹn sắp tới",
+      "emptyTitle": "Không có lịch hẹn sắp tới",
+      "emptyMessage": "Các lịch hẹn trong khung thời gian hiện tại sẽ hiển thị tại đây."
+    },
+    "table": {
+      "time": "Thời gian",
+      "patient": "Bệnh nhân",
+      "doctor": "Bác sĩ",
+      "status": "Trạng thái"
+    }
+  },
+  "auth": {
+    "brandTag": "Hồ sơ bệnh án điện tử",
+    "login": {
+      "title": "Đăng nhập",
+      "subtitle": "Dùng tài khoản của bạn để truy cập các luồng EMR bác sĩ và bệnh nhân.",
+      "identifier": "Tên đăng nhập hoặc email",
+      "password": "Mật khẩu",
+      "signingIn": "Đang đăng nhập...",
+      "signIn": "Đăng nhập",
+      "createAccount": "Tạo tài khoản",
+      "forgotPassword": "Quên mật khẩu?",
+      "seedTitle": "Tài khoản mẫu cục bộ",
+      "provisioningOnly": "T?i kho?n b?nh nh?n ???c c?p n?i b? b?i h? th?ng."
+    },
+    "signup": {
+      "title": "Tạo tài khoản",
+      "subtitle": "Đăng ký tài khoản cục bộ và xác thực bằng OTP.",
+      "fullName": "Họ và tên",
+      "username": "Tên đăng nhập",
+      "email": "Email",
+      "password": "Mật khẩu",
+      "confirmPassword": "Xác nhận mật khẩu",
+      "submitting": "Đang gửi...",
+      "sendOtp": "Gửi OTP",
+      "otpSent": "Đã gửi OTP. Nhập mã để kích hoạt tài khoản.",
+      "accountVerified": "Tài khoản đã xác thực. Bạn có thể đăng nhập ngay.",
+      "otpSentTo": "OTP đã được gửi đến",
+      "otpCode": "Mã OTP",
+      "verifying": "Đang xác thực...",
+      "verifyAccount": "Xác thực tài khoản",
+      "backToSignIn": "Quay lại đăng nhập"
+    },
+    "forgot": {
+      "title": "Đặt lại mật khẩu",
+      "subtitle": "Khôi phục tài khoản bằng OTP qua email.",
+      "email": "Email",
+      "sendingOtp": "Đang gửi OTP...",
+      "sendOtp": "Gửi OTP",
+      "requestDone": "Nếu tài khoản tồn tại, OTP đã được gửi. Nhập mã để tiếp tục.",
+      "otpSentTo": "Nhập OTP đã gửi tới",
+      "otpCode": "Mã OTP",
+      "verifying": "Đang xác thực...",
+      "verifyOtp": "Xác thực OTP",
+      "otpVerified": "OTP hợp lệ. Hãy đặt mật khẩu mới.",
+      "newPassword": "Mật khẩu mới",
+      "confirmPassword": "Xác nhận mật khẩu",
+      "updatingPassword": "Đang cập nhật mật khẩu...",
+      "updatePassword": "Cập nhật mật khẩu",
+      "passwordUpdated": "Cập nhật mật khẩu thành công. Đang chuyển về trang đăng nhập...",
+      "backToSignIn": "Quay lại đăng nhập"
+    },
+    "firstLogin": {
+      "title": "??i m?t kh?u t?m th?i",
+      "subtitle": "??y l? l?n ??ng nh?p ??u ti?n. B?n c?n ??t m?t kh?u m?i tr??c khi ti?p t?c.",
+      "currentPassword": "M?t kh?u hi?n t?i",
+      "newPassword": "M?t kh?u m?i",
+      "confirmPassword": "X?c nh?n m?t kh?u",
+      "passwordRule": "M?t kh?u c?n t?i thi?u 8 k? t? v? kh?ng n?n tr?ng m?t kh?u t?m th?i.",
+      "submit": "C?p nh?t m?t kh?u",
+      "submitting": "?ang c?p nh?t m?t kh?u...",
+      "toast": {
+        "successTitle": "?? c?p nh?t m?t kh?u",
+        "successDescription": "T?i kho?n c?a b?n ?? ???c k?ch ho?t ??y ??."
+      }
+    }
+  },
+  "patients": {
+    "title": "Bệnh nhân",
+    "subtitle": "Quản lý hồ sơ bệnh nhân với tìm kiếm, lọc và chỉnh sửa.",
+    "newButton": "Bệnh nhân mới",
+    "filters": {
+      "search": "Tìm kiếm",
+      "searchPlaceholder": "Mã, tên, số điện thoại",
+      "patientCode": "Mã bệnh nhân",
+      "phone": "Điện thoại"
+    },
+    "emptyTitle": "Không tìm thấy bệnh nhân",
+    "emptyMessage": "Hãy đổi bộ lọc hoặc tạo hồ sơ bệnh nhân mới.",
+    "table": {
+      "code": "Mã",
+      "fullName": "Họ và tên",
+      "phone": "Điện thoại",
+      "gender": "Giới tính",
+      "dateOfBirth": "Ngày sinh",
+      "actions": "Thao tác"
+    },
+    "actions": {
+      "timeline": "Dòng thời gian"
+    },
+    "modal": {
+      "createTitle": "Tạo bệnh nhân",
+      "updateTitle": "Cập nhật bệnh nhân"
+    },
+    "form": {
+      "patientCode": "Mã bệnh nhân",
+      "fullName": "Họ và tên",
+      "dateOfBirth": "Ngày sinh",
+      "email": "Email",
+      "gender": "Giới tính",
+      "genderPlaceholder": "Nam/Nữ",
+      "phone": "Điện thoại",
+      "address": "Địa chỉ",
+      "diagnosis": "Chẩn đoán",
+      "height": "Chiều cao (cm)",
+      "weight": "Cân nặng (kg)",
+      "saveButton": "Lưu bệnh nhân"
+    },
+    "detail": {
+      "title": "Chi tiết bệnh nhân",
+      "code": "Mã",
+      "fullName": "Họ và tên",
+      "phone": "Điện thoại",
+      "email": "Email",
+      "dateOfBirth": "Ngày sinh",
+      "gender": "Giới tính",
+      "diagnosis": "Chẩn đoán",
+      "address": "Địa chỉ"
+    },
+    "timeline": {
+      "title": "Lịch sử khám chữa",
+      "titleWithName": "Lịch sử khám chữa - {fullName}",
+      "loading": "Đang tải lịch sử bệnh nhân...",
+      "empty": "Không tìm thấy lịch sử lịch hẹn hoặc đơn thuốc của bệnh nhân này.",
+      "doctor": "Bác sĩ",
+      "appointmentStatus": "Trạng thái lịch hẹn",
+      "prescription": "Đơn thuốc",
+      "prescriptionStatus": "Trạng thái đơn thuốc",
+      "diagnosis": "Chẩn đoán",
+      "advice": "Lời dặn",
+      "issuedAt": "Thời điểm phát hành"
+    },
+    "toast": {
+      "createdTitle": "Đã tạo bệnh nhân",
+      "createdDescription": "Hồ sơ bệnh nhân mới đã được lưu.",
+      "updatedTitle": "Đã cập nhật bệnh nhân",
+      "updatedDescription": "Thông tin bệnh nhân đã được cập nhật.",
+      "saveErrorTitle": "Không thể lưu bệnh nhân"
+    }
+  },
+  "doctors": {
+    "title": "Bác sĩ",
+    "subtitle": "Quản lý hồ sơ bác sĩ, trạng thái xác nhận và chuyên khoa.",
+    "newButton": "Bác sĩ mới",
+    "myProfile": {
+      "title": "Hồ sơ của tôi",
+      "saveButton": "Lưu hồ sơ"
+    },
+    "filters": {
+      "searchDoctor": "Tìm bác sĩ",
+      "searchPlaceholder": "Tên, email, điện thoại"
+    },
+    "loadingDirectory": "Đang tải danh sách bác sĩ...",
+    "emptyTitle": "Không có bác sĩ",
+    "emptyMessage": "Danh sách bác sĩ sẽ hiển thị tại đây.",
+    "table": {
+      "fullName": "Họ và tên",
+      "email": "Email",
+      "phone": "Điện thoại",
+      "role": "Vai trò",
+      "actions": "Thao tác"
+    },
+    "actions": {
+      "deactivate": "Ngừng kích hoạt"
+    },
+    "modal": {
+      "createTitle": "Tạo bác sĩ",
+      "updateTitle": "Cập nhật hồ sơ bác sĩ"
+    },
+    "form": {
+      "username": "Tên đăng nhập",
+      "password": "Mật khẩu",
+      "fullName": "Họ và tên",
+      "email": "Email",
+      "gender": "Giới tính",
+      "phone": "Điện thoại",
+      "address": "Địa chỉ",
+      "specialty": "Chuyên khoa",
+      "unassigned": "Chưa phân công",
+      "confirmed": "Bác sĩ đã xác nhận",
+      "accountActive": "Tài khoản đang hoạt động",
+      "specialtyError": "Không thể tải danh sách chuyên khoa:",
+      "saveButton": "Lưu bác sĩ"
+    },
+    "confirmDeactivate": "Ngừng kích hoạt bác sĩ \"{fullName}\"? Tài khoản sẽ chuyển sang trạng thái không hoạt động.",
+    "toast": {
+      "createdTitle": "Đã tạo bác sĩ",
+      "createdDescription": "Tài khoản bác sĩ đã được tạo thành công.",
+      "updatedTitle": "Đã cập nhật bác sĩ",
+      "updatedDescription": "Hồ sơ bác sĩ đã được cập nhật thành công.",
+      "deactivatedTitle": "Đã ngừng kích hoạt bác sĩ",
+      "deactivatedDescription": "Tài khoản bác sĩ đã được chuyển sang trạng thái không hoạt động.",
+      "profileUpdatedTitle": "Đã cập nhật hồ sơ",
+      "profileUpdatedDescription": "Hồ sơ bác sĩ của bạn đã được cập nhật.",
+      "loadProfileErrorTitle": "Không thể tải hồ sơ bác sĩ",
+      "deactivateErrorTitle": "Không thể ngừng kích hoạt bác sĩ",
+      "saveErrorTitle": "Không thể lưu bác sĩ",
+      "updateProfileErrorTitle": "Không thể cập nhật hồ sơ"
+    }
+  },
+  "services": {
+    "title": "Dịch vụ",
+    "subtitle": "Quản lý dịch vụ EMR từ danh mục.",
+    "newButton": "Dịch vụ mới",
+    "filters": {
+      "search": "Tìm kiếm",
+      "searchPlaceholder": "Mã, tên, loại",
+      "status": "Trạng thái"
+    },
+    "emptyTitle": "Không có dịch vụ",
+    "emptyMessage": "Các dịch vụ trong danh mục sẽ hiển thị tại đây.",
+    "table": {
+      "code": "Mã",
+      "name": "Tên",
+      "type": "Loại",
+      "status": "Trạng thái",
+      "actions": "Thao tác"
+    },
+    "modal": {
+      "createTitle": "Tạo dịch vụ",
+      "updateTitle": "Cập nhật dịch vụ"
+    },
+    "form": {
+      "serviceCode": "Mã dịch vụ",
+      "serviceName": "Tên dịch vụ",
+      "serviceType": "Loại dịch vụ",
+      "serviceActive": "Dịch vụ đang hoạt động",
+      "saveButton": "Lưu dịch vụ"
+    },
+    "toast": {
+      "createdTitle": "Đã tạo dịch vụ",
+      "createdDescription": "Mục danh mục đã được thêm thành công.",
+      "updatedTitle": "Đã cập nhật dịch vụ",
+      "updatedDescription": "Mục danh mục đã được cập nhật thành công.",
+      "saveErrorTitle": "Không thể lưu dịch vụ"
+    }
+  },
+  "drugs": {
+    "title": "Thuốc",
+    "subtitle": "Quản lý danh mục thuốc với tồn kho và giá.",
+    "newButton": "Thuốc mới",
+    "filters": {
+      "search": "Tìm kiếm",
+      "searchPlaceholder": "Mã, tên, nhà sản xuất",
+      "status": "Trạng thái"
+    },
+    "emptyTitle": "Không có thuốc",
+    "emptyMessage": "Danh mục thuốc sẽ hiển thị tại đây.",
+    "table": {
+      "code": "Mã",
+      "name": "Tên",
+      "manufacturer": "Nhà sản xuất",
+      "expiry": "Hạn dùng",
+      "price": "Giá",
+      "stock": "Tồn kho",
+      "status": "Trạng thái",
+      "actions": "Thao tác"
+    },
+    "modal": {
+      "createTitle": "Tạo thuốc",
+      "updateTitle": "Cập nhật thuốc"
+    },
+    "form": {
+      "drugCode": "Mã thuốc",
+      "drugName": "Tên thuốc",
+      "manufacturer": "Nhà sản xuất",
+      "expiryDate": "Hạn dùng",
+      "unit": "Đơn vị",
+      "price": "Giá",
+      "stockQuantity": "Số lượng tồn",
+      "drugActive": "Thuốc đang hoạt động",
+      "saveButton": "Lưu thuốc"
+    },
+    "toast": {
+      "createdTitle": "Đã tạo thuốc",
+      "createdDescription": "Danh mục thuốc đã được cập nhật.",
+      "updatedTitle": "Đã cập nhật thuốc",
+      "updatedDescription": "Thông tin thuốc đã được cập nhật.",
+      "saveErrorTitle": "Không thể lưu thuốc"
+    }
+  },
+  "appointments": {
+    "title": "Lịch hẹn",
+    "subtitle": "Đặt lịch, theo dõi và cập nhật trạng thái lịch hẹn cho vận hành EMR.",
+    "newButton": "Lịch hẹn mới",
+    "filters": {
+      "search": "Tìm kiếm",
+      "searchPlaceholder": "Mã, bác sĩ, bệnh nhân",
+      "status": "Trạng thái",
+      "allStatus": "Tất cả trạng thái",
+      "date": "Ngày"
+    },
+    "emptyTitle": "Không tìm thấy lịch hẹn",
+    "emptyMessage": "Không có lịch nào khớp với bộ lọc hiện tại.",
+    "table": {
+      "code": "Mã",
+      "time": "Thời gian",
+      "patient": "Bệnh nhân",
+      "doctor": "Bác sĩ",
+      "status": "Trạng thái",
+      "prescription": "Đơn thuốc",
+      "actions": "Thao tác"
+    },
+    "modal": {
+      "createTitle": "Tạo lịch hẹn",
+      "updateTitle": "Cập nhật lịch hẹn"
+    },
+    "form": {
+      "appointmentCode": "Mã lịch hẹn",
+      "appointmentTime": "Thời gian hẹn",
+      "patient": "Bệnh nhân",
+      "selectPatient": "Chọn bệnh nhân",
+      "doctor": "Bác sĩ",
+      "selectDoctor": "Chọn bác sĩ",
+      "lookupError": "Không thể tải dữ liệu tham chiếu:",
+      "status": "Trạng thái",
+      "prescriptionStatus": "Trạng thái đơn thuốc",
+      "urgencyLevel": "Mức độ khẩn (1-5)",
+      "priorityScore": "Điểm ưu tiên (1-10)",
+      "followUp": "Lịch hẹn tái khám",
+      "cancelReason": "Lý do hủy",
+      "saveButton": "Lưu lịch hẹn"
+    },
+    "toast": {
+      "createdTitle": "Đã tạo lịch hẹn",
+      "createdDescription": "Lịch hẹn đã được thêm thành công.",
+      "updatedTitle": "Đã cập nhật lịch hẹn",
+      "updatedDescription": "Dữ liệu lịch hẹn đã được cập nhật.",
+      "saveErrorTitle": "Không thể lưu lịch hẹn"
+    }
+  },
+  "prescriptions": {
+    "title": "Đơn thuốc",
+    "subtitle": "Kê đơn và quản lý hướng dẫn dùng thuốc.",
+    "newButton": "Đơn thuốc mới",
+    "filters": {
+      "search": "Tìm kiếm",
+      "searchPlaceholder": "Mã, bệnh nhân, bác sĩ",
+      "status": "Trạng thái"
+    },
+    "emptyTitle": "Không có đơn thuốc",
+    "emptyMessage": "Các đơn thuốc đã phát hành sẽ hiển thị trong danh sách này.",
+    "table": {
+      "code": "Mã",
+      "patient": "Bệnh nhân",
+      "doctor": "Bác sĩ",
+      "status": "Trạng thái",
+      "createdAt": "Thời gian tạo",
+      "actions": "Thao tác"
+    },
+    "modal": {
+      "createTitle": "Tạo đơn thuốc",
+      "updateTitle": "Cập nhật đơn thuốc"
+    },
+    "form": {
+      "prescriptionCode": "Mã đơn thuốc",
+      "status": "Trạng thái",
+      "patient": "Bệnh nhân",
+      "selectPatient": "Chọn bệnh nhân",
+      "doctor": "Bác sĩ",
+      "selectDoctor": "Chọn bác sĩ",
+      "appointment": "Lịch hẹn",
+      "selectAppointment": "Chọn lịch hẹn",
+      "lookupError": "Không thể tải dữ liệu tham chiếu:",
+      "diagnosis": "Chẩn đoán",
+      "advice": "Lời dặn",
+      "itemsTitle": "Chi tiết đơn thuốc",
+      "drug": "Thuốc",
+      "selectDrug": "Chọn thuốc",
+      "quantity": "Số lượng",
+      "instructions": "Hướng dẫn",
+      "saveButton": "Lưu đơn thuốc"
+    },
+    "detail": {
+      "title": "Chi tiết đơn thuốc",
+      "code": "Mã:",
+      "patient": "Bệnh nhân:",
+      "doctor": "Bác sĩ:",
+      "status": "Trạng thái:",
+      "itemsTitle": "Danh sách thuốc",
+      "drug": "Thuốc",
+      "quantity": "Số lượng",
+      "instructions": "Hướng dẫn"
+    },
+    "toast": {
+      "createdTitle": "Đã tạo đơn thuốc",
+      "createdDescription": "Đơn thuốc đã được phát hành thành công.",
+      "updatedTitle": "Đã cập nhật đơn thuốc",
+      "updatedDescription": "Đơn thuốc đã được cập nhật thành công.",
+      "saveErrorTitle": "Không thể lưu đơn thuốc"
+    }
+  },
+  "patientPortal": {
+    "status": {
+      "pending_confirmation": "Ch? x?c nh?n",
+      "confirmed": "?? x?c nh?n",
+      "cancelled": "?? h?y"
+    },
+    "dashboard": {
+      "title": "T?ng quan s?c kh?e",
+      "subtitle": "Theo d?i l?ch h?n s?p t?i v? th?ng tin l?n kh?m g?n nh?t c?a b?n.",
+      "loading": "?ang t?i t?ng quan...",
+      "stats": {
+        "upcoming": "L?ch h?n s?p t?i",
+        "latestVisit": "L?n kh?m g?n nh?t",
+        "latestPrescription": "??n thu?c g?n nh?t"
+      },
+      "emptyVisit": "Ch?a c? l?ch s? kh?m.",
+      "emptyPrescription": "Ch?a c? ??n thu?c.",
+      "quickActions": "Thao t?c nhanh",
+      "actions": {
+        "bookAppointment": "??t l?ch h?n",
+        "viewHistory": "Xem l?ch s?",
+        "updateProfile": "C?p nh?t h? s?"
+      }
+    },
+    "history": {
+      "title": "L?ch s? kh?m b?nh",
+      "subtitle": "Xem d?ng th?i gian kh?m b?nh, ch?n ?o?n v? chi ti?t ??n thu?c c?a b?n.",
+      "loading": "?ang t?i l?ch s? kh?m b?nh...",
+      "emptyTitle": "Ch?a c? l?ch s? kh?m",
+      "emptyMessage": "C?c l?n kh?m v? ??n thu?c ?? ho?n t?t s? hi?n th? ? ??y.",
+      "fields": {
+        "doctor": "B?c s?",
+        "status": "Tr?ng th?i",
+        "diagnosis": "Ch?n ?o?n",
+        "notes": "Ghi ch?",
+        "visitCode": "M? l?n kh?m",
+        "visitTime": "Th?i gian kh?m"
+      },
+      "actions": {
+        "viewDetail": "Xem chi ti?t"
+      },
+      "detailTitle": "Chi ti?t l?n kh?m",
+      "detailLoading": "?ang t?i chi ti?t l?n kh?m...",
+      "medications": {
+        "title": "Thu?c k? ??n",
+        "empty": "Kh?ng c? d? li?u thu?c cho l?n kh?m n?y.",
+        "drug": "Thu?c",
+        "dosage": "Li?u d?ng",
+        "quantity": "S? l??ng",
+        "instructions": "H??ng d?n"
+      }
+    },
+    "appointments": {
+      "title": "L?ch h?n c?a t?i",
+      "subtitle": "??t, ??i v? h?y l?ch h?n c?a b?n.",
+      "actions": {
+        "bookNew": "??t l?ch m?i",
+        "reschedule": "??i l?ch",
+        "cancel": "H?y l?ch"
+      },
+      "tabs": {
+        "label": "C?c tab l?ch h?n",
+        "upcoming": "S?p t?i",
+        "past": "?? qua",
+        "cancelled": "?? h?y"
+      },
+      "emptyTitle": "Kh?ng c? l?ch h?n",
+      "emptyMessage": "H?y ch?n tab kh?c ho?c ??t l?ch m?i.",
+      "table": {
+        "code": "M?",
+        "time": "Th?i gian",
+        "doctor": "B?c s?",
+        "status": "Tr?ng th?i",
+        "cancelReason": "L? do h?y",
+        "actions": "Thao t?c"
+      },
+      "form": {
+        "doctor": "B?c s?",
+        "selectDoctor": "Ch?n b?c s?",
+        "date": "Ng?y kh?m",
+        "slots": "Khung gi? tr?ng",
+        "loadingSlots": "?ang t?i khung gi?...",
+        "noSlots": "Kh?ng c? khung gi? tr?ng trong ng?y ?? ch?n.",
+        "note": "L? do / ghi ch?"
+      },
+      "bookModal": {
+        "title": "??t l?ch h?n",
+        "submit": "X?c nh?n ??t l?ch"
+      },
+      "rescheduleModal": {
+        "title": "??i l?ch h?n",
+        "submit": "X?c nh?n ??i l?ch"
+      },
+      "cancelModal": {
+        "title": "H?y l?ch h?n",
+        "reason": "L? do h?y",
+        "submit": "X?c nh?n h?y"
+      },
+      "detailModal": {
+        "title": "Chi ti?t l?ch h?n",
+        "loading": "?ang t?i chi ti?t l?ch h?n..."
+      },
+      "toast": {
+        "bookedTitle": "??t l?ch th?nh c?ng",
+        "bookedDescription": "L?ch h?n c?a b?n ?? ???c t?o.",
+        "rescheduledTitle": "??i l?ch th?nh c?ng",
+        "rescheduledDescription": "L?ch h?n c?a b?n ?? ???c ??i.",
+        "cancelledTitle": "?? h?y l?ch h?n",
+        "cancelledDescription": "L?ch h?n c?a b?n ?? ???c h?y.",
+        "bookErrorTitle": "Kh?ng th? ??t l?ch h?n",
+        "rescheduleErrorTitle": "Kh?ng th? ??i l?ch h?n",
+        "cancelErrorTitle": "Kh?ng th? h?y l?ch h?n"
+      }
+    },
+    "profile": {
+      "title": "H? s? c?a t?i",
+      "subtitle": "C?p nh?t th?ng tin li?n h? v? ch? s? s?c kh?e c?a b?n.",
+      "loading": "?ang t?i h? s?...",
+      "identityTitle": "Th?ng tin ??nh danh",
+      "editTitle": "Th?ng tin c? th? ch?nh s?a",
+      "fields": {
+        "patientCode": "M? b?nh nh?n",
+        "fullName": "H? v? t?n",
+        "gender": "Gi?i t?nh",
+        "dateOfBirth": "Ng?y sinh",
+        "email": "Email",
+        "phone": "S? ?i?n tho?i",
+        "address": "??a ch?",
+        "heightCm": "Chi?u cao (cm)",
+        "weightKg": "C?n n?ng (kg)",
+        "drugAllergies": "D? ?ng thu?c"
+      },
+      "saveButton": "L?u h? s?",
+      "toast": {
+        "savedTitle": "?? c?p nh?t h? s?",
+        "savedDescription": "H? s? c?a b?n ?? ???c c?p nh?t th?nh c?ng.",
+        "saveErrorTitle": "Kh?ng th? c?p nh?t h? s?"
+      }
+    }
+  }
+}

@@ -1,2 +1,20 @@
+# Environment and secrets
 .env
+.env.local
+.env.*.local
 client_secret*.json
+*.pem
+*.key
+
+# Maven/Java build output
+target/
+out/
+*.class
+
+# Logs
+logs/
+*.log
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
