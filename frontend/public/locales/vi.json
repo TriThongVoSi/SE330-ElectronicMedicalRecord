@@ -21,16 +21,16 @@
     "services": "Dịch vụ",
     "drugs": "Thuốc",
     "prescriptions": "Đơn thuốc",
-    "patientDashboard": "T?ng quan c?a t?i",
-    "patientMedicalHistory": "L?ch s? kh?m",
-    "patientAppointments": "L?ch h?n c?a t?i",
-    "patientProfile": "H? s? c?a t?i"
+    "patientDashboard": "Tổng quan của tôi",
+    "patientMedicalHistory": "Lịch sử khám",
+    "patientAppointments": "Lịch hẹn của tôi",
+    "patientProfile": "Hồ sơ của tôi"
   },
   "roles": {
     "admin": "Quản trị viên",
     "doctor": "Bác sĩ",
     "user": "Người dùng",
-    "patient": "B?nh nh?n"
+    "patient": "Bệnh nhân"
   },
   "common": {
     "actions": {
@@ -119,7 +119,7 @@
       "createAccount": "Tạo tài khoản",
       "forgotPassword": "Quên mật khẩu?",
       "seedTitle": "Tài khoản mẫu cục bộ",
-      "provisioningOnly": "T?i kho?n b?nh nh?n ???c c?p n?i b? b?i h? th?ng."
+      "provisioningOnly": "Tài khoản bệnh nhân chỉ được cung cấp bởi hệ thống."
     },
     "signup": {
       "title": "Tạo tài khoản",
@@ -159,17 +159,17 @@
       "backToSignIn": "Quay lại đăng nhập"
     },
     "firstLogin": {
-      "title": "??i m?t kh?u t?m th?i",
-      "subtitle": "??y l? l?n ??ng nh?p ??u ti?n. B?n c?n ??t m?t kh?u m?i tr??c khi ti?p t?c.",
-      "currentPassword": "M?t kh?u hi?n t?i",
-      "newPassword": "M?t kh?u m?i",
-      "confirmPassword": "X?c nh?n m?t kh?u",
-      "passwordRule": "M?t kh?u c?n t?i thi?u 8 k? t? v? kh?ng n?n tr?ng m?t kh?u t?m th?i.",
-      "submit": "C?p nh?t m?t kh?u",
-      "submitting": "?ang c?p nh?t m?t kh?u...",
+      "title": "Đổi mật khẩu tạm thời",
+      "subtitle": "Đây là lần đăng nhập đầu tiên. Bạn cần đặt mật khẩu mới trước khi tiếp tục.",
+      "currentPassword": "Mật khẩu hiện tại",
+      "newPassword": "Mật khẩu mới",
+      "confirmPassword": "Xác nhận mật khẩu",
+      "passwordRule": "Mật khẩu cần tối thiểu 8 ký tự và không nên trùng mật khẩu tạm thời.",
+      "submit": "Cập nhật mật khẩu",
+      "submitting": "Đang cập nhật mật khẩu...",
       "toast": {
-        "successTitle": "?? c?p nh?t m?t kh?u",
-        "successDescription": "T?i kho?n c?a b?n ?? ???c k?ch ho?t ??y ??."
+        "successTitle": "Đã cập nhật mật khẩu",
+        "successDescription": "Tài khoản của bạn đã được kích hoạt đầy đủ."
       }
     }
   },
@@ -498,143 +498,143 @@
       "saveErrorTitle": "Không thể lưu đơn thuốc"
     }
   },
-  "patientPortal": {
+"patientPortal": {
     "status": {
-      "pending_confirmation": "Ch? x?c nh?n",
-      "confirmed": "?? x?c nh?n",
-      "cancelled": "?? h?y"
+      "pending_confirmation": "Chờ xác nhận",
+      "confirmed": "Đã xác nhận",
+      "cancelled": "Đã hủy"
     },
     "dashboard": {
-      "title": "T?ng quan s?c kh?e",
-      "subtitle": "Theo d?i l?ch h?n s?p t?i v? th?ng tin l?n kh?m g?n nh?t c?a b?n.",
-      "loading": "?ang t?i t?ng quan...",
+      "title": "Tổng quan sức khỏe",
+      "subtitle": "Theo dõi lịch hẹn sắp tới và thông tin lần khám gần nhất của bạn.",
+      "loading": "Đang tải tổng quan...",
       "stats": {
-        "upcoming": "L?ch h?n s?p t?i",
-        "latestVisit": "L?n kh?m g?n nh?t",
-        "latestPrescription": "??n thu?c g?n nh?t"
+        "upcoming": "Lịch hẹn sắp tới",
+        "latestVisit": "Lần khám gần nhất",
+        "latestPrescription": "Đơn thuốc gần nhất"
       },
-      "emptyVisit": "Ch?a c? l?ch s? kh?m.",
-      "emptyPrescription": "Ch?a c? ??n thu?c.",
-      "quickActions": "Thao t?c nhanh",
+      "emptyVisit": "Chưa có lịch sử khám.",
+      "emptyPrescription": "Chưa có đơn thuốc.",
+      "quickActions": "Thao tác nhanh",
       "actions": {
-        "bookAppointment": "??t l?ch h?n",
-        "viewHistory": "Xem l?ch s?",
-        "updateProfile": "C?p nh?t h? s?"
+        "bookAppointment": "Đặt lịch hẹn",
+        "viewHistory": "Xem lịch sử",
+        "updateProfile": "Cập nhật hồ sơ"
       }
     },
     "history": {
-      "title": "L?ch s? kh?m b?nh",
-      "subtitle": "Xem d?ng th?i gian kh?m b?nh, ch?n ?o?n v? chi ti?t ??n thu?c c?a b?n.",
-      "loading": "?ang t?i l?ch s? kh?m b?nh...",
-      "emptyTitle": "Ch?a c? l?ch s? kh?m",
-      "emptyMessage": "C?c l?n kh?m v? ??n thu?c ?? ho?n t?t s? hi?n th? ? ??y.",
+      "title": "Lịch sử khám bệnh",
+      "subtitle": "Xem dòng thời gian khám bệnh, chẩn đoán và chi tiết đơn thuốc của bạn.",
+      "loading": "Đang tải lịch sử khám bệnh...",
+      "emptyTitle": "Chưa có lịch sử khám",
+      "emptyMessage": "Các lần khám và đơn thuốc đã hoàn tất sẽ hiển thị ở đây.",
       "fields": {
-        "doctor": "B?c s?",
-        "status": "Tr?ng th?i",
-        "diagnosis": "Ch?n ?o?n",
-        "notes": "Ghi ch?",
-        "visitCode": "M? l?n kh?m",
-        "visitTime": "Th?i gian kh?m"
+        "doctor": "Bác sĩ",
+        "status": "Trạng thái",
+        "diagnosis": "Chẩn đoán",
+        "notes": "Ghi chú",
+        "visitCode": "Mã lần khám",
+        "visitTime": "Thời gian khám"
       },
       "actions": {
-        "viewDetail": "Xem chi ti?t"
+        "viewDetail": "Xem chi tiết"
       },
-      "detailTitle": "Chi ti?t l?n kh?m",
-      "detailLoading": "?ang t?i chi ti?t l?n kh?m...",
+      "detailTitle": "Chi tiết lần khám",
+      "detailLoading": "Đang tải chi tiết lần khám...",
       "medications": {
-        "title": "Thu?c k? ??n",
-        "empty": "Kh?ng c? d? li?u thu?c cho l?n kh?m n?y.",
-        "drug": "Thu?c",
-        "dosage": "Li?u d?ng",
-        "quantity": "S? l??ng",
-        "instructions": "H??ng d?n"
+        "title": "Thuốc kê đơn",
+        "empty": "Không có dữ liệu thuốc cho lần khám này.",
+        "drug": "Thuốc",
+        "dosage": "Liều dùng",
+        "quantity": "Số lượng",
+        "instructions": "Hướng dẫn"
       }
     },
     "appointments": {
-      "title": "L?ch h?n c?a t?i",
-      "subtitle": "??t, ??i v? h?y l?ch h?n c?a b?n.",
+      "title": "Lịch hẹn của tôi",
+      "subtitle": "Đặt, đổi và hủy lịch hẹn của bạn.",
       "actions": {
-        "bookNew": "??t l?ch m?i",
-        "reschedule": "??i l?ch",
-        "cancel": "H?y l?ch"
+        "bookNew": "Đặt lịch mới",
+        "reschedule": "Đổi lịch",
+        "cancel": "Hủy lịch"
       },
       "tabs": {
-        "label": "C?c tab l?ch h?n",
-        "upcoming": "S?p t?i",
-        "past": "?? qua",
-        "cancelled": "?? h?y"
+        "label": "Các tab lịch hẹn",
+        "upcoming": "Sắp tới",
+        "past": "Đã qua",
+        "cancelled": "Đã hủy"
       },
-      "emptyTitle": "Kh?ng c? l?ch h?n",
-      "emptyMessage": "H?y ch?n tab kh?c ho?c ??t l?ch m?i.",
+      "emptyTitle": "Không có lịch hẹn",
+      "emptyMessage": "Hãy chọn tab khác hoặc đặt lịch mới.",
       "table": {
-        "code": "M?",
-        "time": "Th?i gian",
-        "doctor": "B?c s?",
-        "status": "Tr?ng th?i",
-        "cancelReason": "L? do h?y",
-        "actions": "Thao t?c"
+        "code": "Mã",
+        "time": "Thời gian",
+        "doctor": "Bác sĩ",
+        "status": "Trạng thái",
+        "cancelReason": "Lý do hủy",
+        "actions": "Thao tác"
       },
       "form": {
-        "doctor": "B?c s?",
-        "selectDoctor": "Ch?n b?c s?",
-        "date": "Ng?y kh?m",
-        "slots": "Khung gi? tr?ng",
-        "loadingSlots": "?ang t?i khung gi?...",
-        "noSlots": "Kh?ng c? khung gi? tr?ng trong ng?y ?? ch?n.",
-        "note": "L? do / ghi ch?"
+        "doctor": "Bác sĩ",
+        "selectDoctor": "Chọn bác sĩ",
+        "date": "Ngày khám",
+        "slots": "Khung giờ trống",
+        "loadingSlots": "Đang tải khung giờ...",
+        "noSlots": "Không có khung giờ trống trong ngày đã chọn.",
+        "note": "Lý do / ghi chú"
       },
       "bookModal": {
-        "title": "??t l?ch h?n",
-        "submit": "X?c nh?n ??t l?ch"
+        "title": "Đặt lịch hẹn",
+        "submit": "Xác nhận đặt lịch"
       },
       "rescheduleModal": {
-        "title": "??i l?ch h?n",
-        "submit": "X?c nh?n ??i l?ch"
+        "title": "Đổi lịch hẹn",
+        "submit": "Xác nhận đổi lịch"
       },
       "cancelModal": {
-        "title": "H?y l?ch h?n",
-        "reason": "L? do h?y",
-        "submit": "X?c nh?n h?y"
+        "title": "Hủy lịch hẹn",
+        "reason": "Lý do hủy",
+        "submit": "Xác nhận hủy"
       },
       "detailModal": {
-        "title": "Chi ti?t l?ch h?n",
-        "loading": "?ang t?i chi ti?t l?ch h?n..."
+        "title": "Chi tiết lịch hẹn",
+        "loading": "Đang tải chi tiết lịch hẹn..."
       },
       "toast": {
-        "bookedTitle": "??t l?ch th?nh c?ng",
-        "bookedDescription": "L?ch h?n c?a b?n ?? ???c t?o.",
-        "rescheduledTitle": "??i l?ch th?nh c?ng",
-        "rescheduledDescription": "L?ch h?n c?a b?n ?? ???c ??i.",
-        "cancelledTitle": "?? h?y l?ch h?n",
-        "cancelledDescription": "L?ch h?n c?a b?n ?? ???c h?y.",
-        "bookErrorTitle": "Kh?ng th? ??t l?ch h?n",
-        "rescheduleErrorTitle": "Kh?ng th? ??i l?ch h?n",
-        "cancelErrorTitle": "Kh?ng th? h?y l?ch h?n"
+        "bookedTitle": "Đặt lịch thành công",
+        "bookedDescription": "Lịch hẹn của bạn đã được tạo.",
+        "rescheduledTitle": "Đổi lịch thành công",
+        "rescheduledDescription": "Lịch hẹn của bạn đã được đổi.",
+        "cancelledTitle": "Đã hủy lịch hẹn",
+        "cancelledDescription": "Lịch hẹn của bạn đã được hủy.",
+        "bookErrorTitle": "Không thể đặt lịch hẹn",
+        "rescheduleErrorTitle": "Không thể đổi lịch hẹn",
+        "cancelErrorTitle": "Không thể hủy lịch hẹn"
       }
     },
     "profile": {
-      "title": "H? s? c?a t?i",
-      "subtitle": "C?p nh?t th?ng tin li?n h? v? ch? s? s?c kh?e c?a b?n.",
-      "loading": "?ang t?i h? s?...",
-      "identityTitle": "Th?ng tin ??nh danh",
-      "editTitle": "Th?ng tin c? th? ch?nh s?a",
+      "title": "Hồ sơ của tôi",
+      "subtitle": "Cập nhật thông tin liên hệ và chỉ số sức khỏe của bạn.",
+      "loading": "Đang tải hồ sơ...",
+      "identityTitle": "Thông tin định danh",
+      "editTitle": "Thông tin có thể chỉnh sửa",
       "fields": {
-        "patientCode": "M? b?nh nh?n",
-        "fullName": "H? v? t?n",
-        "gender": "Gi?i t?nh",
-        "dateOfBirth": "Ng?y sinh",
+        "patientCode": "Mã bệnh nhân",
+        "fullName": "Họ và tên",
+        "gender": "Giới tính",
+        "dateOfBirth": "Ngày sinh",
         "email": "Email",
-        "phone": "S? ?i?n tho?i",
-        "address": "??a ch?",
-        "heightCm": "Chi?u cao (cm)",
-        "weightKg": "C?n n?ng (kg)",
-        "drugAllergies": "D? ?ng thu?c"
+        "phone": "Số điện thoại",
+        "address": "Địa chỉ",
+        "heightCm": "Chiều cao (cm)",
+        "weightKg": "Cân nặng (kg)",
+        "drugAllergies": "Dị ứng thuốc"
       },
-      "saveButton": "L?u h? s?",
+      "saveButton": "Lưu hồ sơ",
       "toast": {
-        "savedTitle": "?? c?p nh?t h? s?",
-        "savedDescription": "H? s? c?a b?n ?? ???c c?p nh?t th?nh c?ng.",
-        "saveErrorTitle": "Kh?ng th? c?p nh?t h? s?"
+        "savedTitle": "Đã cập nhật hồ sơ",
+        "savedDescription": "Hồ sơ của bạn đã được cập nhật thành công.",
+        "saveErrorTitle": "Không thể cập nhật hồ sơ"
       }
     }
   }

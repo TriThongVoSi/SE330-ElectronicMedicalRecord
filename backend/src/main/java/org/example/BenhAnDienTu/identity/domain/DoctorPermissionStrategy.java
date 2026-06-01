@@ -14,7 +14,8 @@ public class DoctorPermissionStrategy implements RolePermissionStrategy {
           "/api/patients",
           "/api/appointments",
           "/api/drugs",
-          "/api/prescriptions");
+          "/api/prescriptions",
+          "/api/notifications");
   private static final Set<String> DOCTOR_PERMISSIONS =
       Set.of(
           "PATIENT_READ",
