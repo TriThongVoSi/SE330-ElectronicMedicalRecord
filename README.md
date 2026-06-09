@@ -407,7 +407,7 @@ cd frontend && npm run format && npm run lint && npm run typecheck
 
 ## 📄 Giấy Phép
 
-Dự án này được phát triển cho mục đích học tập trong khuôn khổ môn học **SE330 – Kiến trúc và Thiết kế Phần mềm**.
+Dự án này được phát triển cho mục đích học tập trong khuôn khổ môn học **SE330 – Ngôn ngữ lập trình Java**.
 
 ---
 
