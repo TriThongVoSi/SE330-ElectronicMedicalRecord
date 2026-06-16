@@ -86,7 +86,7 @@ export const LoginPage: React.FC = () => {
           {t('auth.login.subtitle', 'Use your account to access doctor and patient EMR workflows.')}
         </p>
 
-        <form className="form-grid" onSubmit={handleSubmit(onSubmit)}>
+        <form className="form-grid login-form" onSubmit={handleSubmit(onSubmit)}>
           <label className="field">
             <span>{t('auth.login.identifier', 'Username or email')}</span>
             <input type="text" autoComplete="username" {...register('identifier')} />

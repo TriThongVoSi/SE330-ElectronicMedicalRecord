@@ -305,6 +305,7 @@ textarea {
 .field {
   display: grid;
   gap: 6px;
+  min-width: 0;
 }
 
 .field > span {
@@ -315,6 +316,8 @@ textarea {
 .field input,
 .field select,
 .field textarea {
+  width: 100%;
+  min-width: 0;
   border: 1px solid var(--surface-border);
   border-radius: 10px;
   padding: 9px 11px;
@@ -443,6 +446,14 @@ td {
 
 .field-span-2 {
   grid-column: span 2;
+}
+
+.login-form {
+  grid-template-columns: 1fr;
+}
+
+.login-form .field-span-2 {
+  grid-column: span 1;
 }
 
 .form-actions {
