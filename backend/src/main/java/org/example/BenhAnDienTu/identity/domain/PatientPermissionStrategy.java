@@ -1,10 +1,7 @@
 package org.example.BenhAnDienTu.identity.domain;
 
 import java.util.Set;
-import org.springframework.http.HttpMethod;
-import org.springframework.stereotype.Component;
 
-@Component
 public class PatientPermissionStrategy implements RolePermissionStrategy {
 
   private static final String ROLE_PATIENT = "PATIENT";
@@ -42,7 +39,7 @@ public class PatientPermissionStrategy implements RolePermissionStrategy {
     }
 
     if (path.startsWith("/api/v1/patient-portal/profile")) {
-      return HttpMethod.GET.matches(method) || HttpMethod.PUT.matches(method);
+      return isMethod(method, "GET") || isMethod(method, "PUT");
     }
 
     for (String prefix : PATIENT_ALLOWED_PREFIXES) {
@@ -51,5 +48,9 @@ public class PatientPermissionStrategy implements RolePermissionStrategy {
       }
     }
     return false;
+  }
+
+  private boolean isMethod(String actual, String expected) {
+    return expected.equalsIgnoreCase(actual);
   }
 }

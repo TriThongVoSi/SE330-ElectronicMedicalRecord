@@ -1,9 +1,7 @@
 package org.example.BenhAnDienTu.identity.domain;
 
 import java.util.Set;
-import org.springframework.stereotype.Component;
 
-@Component
 public class DefaultPermissionStrategy implements RolePermissionStrategy {
 
   private static final String ROLE_USER = "USER";
